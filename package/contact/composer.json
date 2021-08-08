@@ -1,0 +1,25 @@
+{
+    "name": "emransikder/contact",
+    "description": "This will send email to admin and save contact query in database",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Md. Emran Sikder",
+            "email": "sikderemran4688@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Emran\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Emran\\Contact\\Providers\\ContactServiceProvider"
+            ]
+        }
+    }
+}
